@@ -1,0 +1,152 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 45px;
+    background-color: black;
+}
+
+.navbar__left{
+    margin-left: -20px;
+}
+
+.navbar__left > ul{
+    display: flex;
+    align-items: center;
+}
+
+.navbar__left li{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    padding: 0 16px 0 16px;
+}
+
+.navbar__left li i{
+    color: #3fd0d4;
+}
+
+.navbar__left li a{
+    margin-left: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.navbar__left li a:hover{
+    color: #3fd0d4;
+}
+
+.navbar__right{
+    display: flex;
+    align-items: center;
+}
+
+.social__item{
+    margin-right: 30px;
+}
+
+.social__item ul{
+    display: flex;
+}
+
+.social__item li {
+    padding: 12px;
+    list-style: none;
+    font-size: 14px;
+}
+
+.social__item a:hover{
+    color: #3abdc1;
+}
+
+.social__item li a{
+    color: #fff;
+}
+
+.language__list{
+    
+}
+
+.language__list:hover{
+    cursor: pointer;
+}
+
+.eng__version{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3abdc1;
+    width: 150px;
+    height: 45px;
+}
+
+.eng__version a{
+    text-decoration: none;
+    color: #fff;
+    padding: 0 8px;
+}
+
+.eng__version i{
+    color: #fff;
+}
+
+.language__list ul{
+    display: none
+}
+
+.login{
+    padding: 14px 20px;
+    background-color: #3fd0d4;
+}
+
+.login:hover{
+    cursor: pointer;
+}
+
+.login a{
+    color: #fff;
+}
+
+.container{
+    margin-top: 50px;
+}
+
+.navbar__content{
+    margin-bottom: 50px;
+}
+
+.top__content{
+    text-align: center;
+}
+
+.top__content img{
+    width: 256px;
+    height: auto;
+}
+
+.top__content ul{
+    display:  flex;
+    justify-content: center;
+}
+
+.top__content li{
+    padding: 8px 16px;
+    list-style: none;
+    margin: 0 20px;
+}
+
+.top__content a{
+    text-decoration: none;
+    color: #000;
+    font-weight: 600;
+}
+
+.top__content a:hover{
+    color: #3fd0d4;
+}
+
