@@ -113,7 +113,8 @@ body{
 }
 
 .container{
-    margin-top: 50px;
+    margin: 100px 100px 0 100px;
+    
 }
 
 .navbar__content{
@@ -132,6 +133,7 @@ body{
 .top__content ul{
     display:  flex;
     justify-content: center;
+    padding: 0;
 }
 
 .top__content li{
@@ -149,4 +151,150 @@ body{
 .top__content a:hover{
     color: #3fd0d4;
 }
+
+.content__img{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 80px;
+}
+
+.content__img .img__left{
+    width: 66.66666%;
+    margin-right: 25px;
+}
+
+.content__img .img__right{
+    width: 33.33333%;
+    margin-left: 25px;
+}
+
+
+.img__left img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.img__right img{
+   width: 100%;
+   height: 100%;
+   object-fit: cover;
+}
+
+.popular__tour{
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.popular__tour .popular__img{
+    padding: 50px;
+    width: 50%;
+}
+
+.popular__tour img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+
+}
+
+.popular__tour h2{
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.popular__tour .popular__content > p{
+    font-size: 20px;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+    line-height: 25px;
+}
+
+.popular__img .popular__item--countryside{
+    width: 50%;
+}
+
+.item{
+    display: flex;
+    align-items: center;
+    position: relative;
+    margin-top: -30px;
+}
+
+.item h4{
+    font-size: 20px;
+}
+
+.item p{
+    font-size: 20px;
+    font-weight: 600;
+    position: absolute;
+    right: 0;
+}
+
+.popular__item--countryside .father{
+    background: #f0ede8;
+    height: 20px;
+    width: 100%;
+}
+
+.popular__item--countryside .child{
+    background: #3abdc1 ; 
+    width: 76%;
+    height: 20px;
+}
+
+.popular__item--vineyard .father{
+    background: #f0ede8;
+    height: 20px;
+    width: 100%;
+}
+
+.popular__item--vineyard .child{
+    background: #3abdc1 ; 
+    width: 92%;
+    height: 20px;
+}
+
+.popular__item--winetasting .father{
+    background: #f0ede8;
+    height: 20px;
+    width: 100%;
+}
+
+.popular__item--winetasting .child{
+    background: #3abdc1 ; 
+    width: 86%;
+    height: 20px;
+}
+
+.pb{
+    padding-bottom: 20px;
+}
+
+.image__full-screen{
+    margin-bottom: 80px;
+}
+
+.image__full-screen img{
+    max-width: 100%;
+    height: auto;
+}
+
+.the-best__tour{
+
+}
+
+.the-best__tour h2{
+    font-size: 50px;
+    text-align: center;
+}
+
+.the-best__tour p{
+   text-align: center;
+   display: inline-block;
+}
+
+
+
 
