@@ -356,8 +356,68 @@ body{
 }
 
 .video__banner{
-    
+    margin-bottom: 80px;
 }
+
+.popular__tour--second{
+    display: flex;
+    margin-bottom: 80px;
+}
+
+.popular__tour--second h2{
+    font-weight: 500;
+    font-size: 40px;
+}
+
+.popular__tour--second .our__tour > p{
+    font-size: 18px;
+    font-weight: 300;
+    letter-spacing: 1.3px;
+    line-height: 25px;
+}
+
+.out__tour{
+    margin-right: 16px;
+}
+
+.content__our-tour{
+    display: flex;
+
+}
+
+.img__our-tour--left{
+    margin-right: 16px;
+}
+
+.icon___content{
+    display: flex;
+    align-items: center;
+    padding: 6px 6px 6px 0;
+}
+
+.icon__content img{
+    width: 50px;
+    height: 50px;
+    margin-right: 16px;
+}
+
+.icon___content p{
+    line-height: 26px;
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.popular__img__second img{
+    width: 300px;
+    height: auto;
+    clip-path: circle(150px at 50% 50%);
+}
+
+footer{
+    height: 500px;
+    background-color: #212121;
+}
+
 
 
 
