@@ -60,9 +60,11 @@
                     </ul>
                 </div>
                 <div class="language__list">
-                    <div class="eng__version">
-                        <a href=""> English</a>
-                        <i class="gg-push-chevron-down"></i>
+                    <div id="click" class="eng__version">
+                        <a href="">English</a> 
+                            <i class="gg-push-chevron-down"></i>
+                        
+                        
                     </div>
                     <ul>
                         <li>
@@ -283,8 +285,55 @@
     </nav>
 
     <footer>
-        
+        <div class="all__footer">
+            <div class="infor">
+                <div class="contact">
+                    <img src="./img/logo.png" alt="">
+                    <a href="#">sesail@gmail.com</a>
+                    <a href="#">1 562 867 5390</a>
+                    <a href="#">
+                        Broadway & Morris St, New York
+                    </a>
+                </div>
+
+                <div class="our__recent__posts">
+                    <h5>Our Recent Posts</h5>
+                    <a href="#">Visit Thailand, Bali And China</a>
+                    <p>November 11, 2022</p>
+                    <a href="#">The Sound Of Our Jungle</a>
+                    <p>November 11, 2022</p>
+                    <a href="#">New Year, New Resolutions!</a>
+                    <p>November 11, 2022</p>
+                </div>
+            </div>
+
+            <div class="subscirbe">
+                <h5>Subscribe to our Newsletter</h5>
+                <p>Etiam rhoncus. Maecenas temp us, tellus eget
+                    condimentum rho</p>
+                <form action="">
+                    <div class="form">
+                        <div class="infor__basic">
+                            <input type="text" required placeholder="Name" value="Name">
+                            <input type="email" required placeholder="Email" value="Email">
+                        </div>
+                        <input class="submit" type="submit" value="SUBSCRIBE">
+                    </div>
+                </form>
+            </div>
+        </div>
+        <div class="powered__by">
+            <p>Powered by @<a href="#">ThanhLoc2022</a></p>
+        </div>
     </footer>
+
+    <script>
+
+    document.getElementById("myBtn").onclick = function() {myFunction()};
+        function myFuncion(){
+            document.getElementById("language__list").classList.toggle("show")
+        }
+    </script>
 </body>
 
 </html>

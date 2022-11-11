@@ -4,6 +4,10 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+.show{
+    display: block;
+}
+
 .navbar{
     display: flex;
     justify-content: space-between;
@@ -70,7 +74,8 @@ body{
 }
 
 .language__list{
-    
+    position: relative;
+    display: inline-block;
 }
 
 .language__list:hover{
@@ -97,7 +102,9 @@ body{
 }
 
 .language__list ul{
+    position: absolute  ;
     display: none
+    
 }
 
 .login{
@@ -301,7 +308,7 @@ body{
 
 .img__tour{
     display: flex;
-    margin-bottom: 80px;
+    margin-bottom: 80px !important;
 }
 
 .item__img{
@@ -405,6 +412,7 @@ body{
     line-height: 26px;
     font-weight: 300;
     font-size: 15px;
+    margin-left: 16px;
 }
 
 .popular__img__second img{
@@ -414,10 +422,124 @@ body{
 }
 
 footer{
-    height: 500px;
+    height: 530px;
     background-color: #212121;
+    /* align-items: center; */
 }
 
+.all__footer{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 55px;
+}
+
+.all__footer a{
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 12px 0;
+}
+
+.all__footer a:hover{
+    cursor: pointer;
+    color: #3fd0d4;
+}
+
+.all__footer h5{
+    font-size: 20px;
+    color: #fff;
+}
+
+.infor{
+    /* width: 50%; */
+    display: flex;
+}
+
+.contact{
+    display: flex;
+    flex-direction: column;
+    margin-right: 50px;   
+    justify-content: center;
+}
+
+.contact img{
+    width: 256px;
+    height: auto;
+    margin-bottom: 50px;
+}
+
+.our__recent__posts a{
+    color: #A9A9A9;
+}
+
+.our__recent__posts p{
+    color: #fff;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.subscirbe{
+    /* width: 50%; */
+    display: flex;
+    flex-direction: column;
+}
+
+.subscirbe p{
+    color: #A9A9A9;
+    font-size: 15px;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+.form input{
+    padding: 13px 33px;
+    font-weight: 600;
+}
+
+.form .submit{
+    background-color: #3fd0d4;
+    font-weight: 600;
+    color: #fff;
+}
+
+.submit:hover{
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}
+
+.infor__basic{
+    display: flex;
+    justify-content: space-between;
+    margin: 16px 0 28px 0;
+}
+
+.infor__basic input{
+    color: #fff;
+    background-color: #595959;
+}
+
+.powered__by{
+    text-align: center;
+    margin-top: 36px;
+}
+
+.powered__by p{
+    color: #A9A9A9;
+    font-size: 13px;
+}
+
+.powered__by a{
+    color: #fff;
+    text-decoration: none;
+}
+
+.powered__by a:hover{
+    color: #3fd0d4;
+}
 
 
 
